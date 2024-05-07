@@ -9,5 +9,7 @@ public class Pokemon {
 
     private String name;
 
-    private String type;
+    public String toString() {
+        return name + ' ' + String.valueOf(id);
+    }
 }
