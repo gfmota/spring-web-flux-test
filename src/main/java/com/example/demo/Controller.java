@@ -26,7 +26,7 @@ public class Controller {
         }
 
         final var endTime = System.currentTimeMillis();
-        System.out.println("Duration in ms: " + String.valueOf(endTime - startTime));
+        System.out.println("Duration in ms: " + (endTime - startTime));
 
         return ResponseEntity.ok(resultList);
     }
